@@ -48,7 +48,7 @@ public class PublicClient
     }
 
     // Create Stakeholders
-    // Ref: https://visma-real-estate-solutions.github.io/core-documentation/common#create-stakeholders
+    // Ref: https://broker-as.github.io/core-documentation/common#create-stakeholders
 
     // 1. Get a list of valid processing basis
     // All active processing bases can be retrieved by calling the following method:

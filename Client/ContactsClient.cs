@@ -252,7 +252,7 @@ public class ContactsClient
     #region Data Processor
 
     // Most fields in Office, BrokerCompany and Chain regarding values and stats can be found through journals, e.g:
-    // https://visma-real-estate-solutions.github.io/core-documentation/docs/frequent_integrations/data_processor.html#cache
+    // https://broker-as.github.io/core-documentation/docs/frequent_integrations/data_processor.html#cache
 
     // Swap /Offices with /BrokerCompanies, or /Chain and officeid with chainId, or brokerCompanyId for journals from brokerCompany or the entire chain.
 

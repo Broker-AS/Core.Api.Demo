@@ -11,7 +11,7 @@ This application was built in:  <br />
 C# 12.0
 
 This application is meant to be used in conjunction with the Flow API documentation and the Swagger UI. <br />
-https://visma-real-estate-solutions.github.io/core-documentation/
+https://broker-as.github.io/core-documentation/
 https://integration.webtopsolutions.com/flow/swagger/index.html
 
 The classes in the Client folder correspond to the different API sections in Swagger. The same goes for models in the Models folder.

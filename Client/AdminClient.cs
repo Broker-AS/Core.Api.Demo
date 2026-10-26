@@ -22,7 +22,7 @@ public class AdminClient
 
     /// <summary>
     /// Create an order as a Marketing Integrator on behalf of a customer
-    /// Ref: https://visma-real-estate-solutions.github.io/core-documentation/docs/marketing-integrator/new-order-as-integrator.html
+    /// Ref: https://broker-as.github.io/core-documentation/docs/marketing-integrator/new-order-as-integrator.html
     /// </summary>
     /// <returns></returns>
     public async Task<MarketingIntegratorOrderDto> CreateOrderOnBehalfOfCustomer(int caseId)
@@ -55,7 +55,7 @@ public class AdminClient
 
     /// <summary>
     /// Set status for order
-    /// https://visma-real-estate-solutions.github.io/core-documentation/docs/marketing-integrator/order-methods.html#add-integration-status-and-state
+    /// https://broker-as.github.io/core-documentation/docs/marketing-integrator/order-methods.html#add-integration-status-and-state
     /// </summary>
     /// <returns></returns>
     public async Task<MarketingIntegratorOrderDto> UpdateOrderState(Guid orderGuid)
@@ -97,7 +97,7 @@ public class AdminClient
 
     /// <summary>
     /// Set metadata on an order
-    /// https://visma-real-estate-solutions.github.io/core-documentation/docs/marketing-integrator/order-methods.html#update-order
+    /// https://broker-as.github.io/core-documentation/docs/marketing-integrator/order-methods.html#update-order
     /// </summary>
     /// <returns></returns>
     public async Task<MarketingIntegratorOrderDto> UpdateOrderMetadata(Guid orderGuid)
@@ -152,7 +152,7 @@ public class AdminClient
 
     /// <summary>
     /// Verify FlowToken and get user information
-    /// https://visma-real-estate-solutions.github.io/core-documentation/docs/marketing-integrator/order-methods.html#verify-flowtoken
+    /// https://broker-as.github.io/core-documentation/docs/marketing-integrator/order-methods.html#verify-flowtoken
     /// </summary>
     /// <returns></returns>
     public async Task<MarketingIntegratorTokenDto> VerifyFlowToken(string flowToken)
