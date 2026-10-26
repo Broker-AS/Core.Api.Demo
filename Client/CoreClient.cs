@@ -354,11 +354,11 @@ public class CoreClient
         // This option can only be used if you only need to add one processing basis for the created stakeholder:
         // var anonymousCreateStakeholderRequestOption2 = new AnonymousCreateStakeholderRequest
         // {
-        //     FirstName = "Erik",
-        //     SurName = "Molnar",
-        //     Email = "erik.molnar@visma.com",
-        //     Telephone = "+46730279460",
-        //     CountryPrefix = "SE",
+        //     FirstName = "Tor",
+        //     SurName = "Hammar",
+        //     Email = "tor.hammar@email.com",
+        //     Telephone = "+47123",
+        //     CountryPrefix = "NO",
         //     ProcessingBasisCategory = ProcessingBasisCategoryType.SpecificCase,
         //     ProcessingBasisSystemType = ProcessingBasisSystemType.Manual
         // };

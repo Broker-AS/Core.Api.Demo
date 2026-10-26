@@ -29,7 +29,7 @@ The classes in the Client folder correspond to the different API sections in Swa
 
 ### How to run
 * You need an API user
-    * Contact support.realestate@visma.com
+    * Contact support@broker.no
     * Insert your API user credentials in the `appsettings.json` file.
       * Host
       * client_id
